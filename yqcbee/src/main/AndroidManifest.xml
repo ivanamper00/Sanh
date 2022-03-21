@@ -43,7 +43,7 @@
             android:value="vn2022ds.com" />
 
         <meta-data android:name="YQCID"
-            android:value="androidname=com.thecoo.crown" />
+            android:value="androidname=123456" />
 
     </application>
 </manifest>

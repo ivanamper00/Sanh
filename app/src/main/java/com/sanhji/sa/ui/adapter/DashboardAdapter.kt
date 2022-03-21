@@ -1,11 +1,11 @@
-package com.phetmalou.sanh.ui.adapter
+package com.sanhji.sa.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.dakuinternational.common.domain.model.DataContent
-import com.phetmalou.sanh.data.SanhAssets
-import com.phetmalou.sanh.databinding.ItemDashboardBinding
+import com.sanhji.sa.data.SanhAssets
+import com.sanhji.sa.databinding.ItemDashboardBinding
 
 class DashboardAdapter(var onClick: OnItemClickListener) : RecyclerView.Adapter<DashboardAdapter.ViewHolder>() {
 

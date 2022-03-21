@@ -27,9 +27,12 @@ public class YQCUtils {
      * 注意：在启动页的onResume方法里调用，需要点击返回时能重新启动跳转
      */
     public static void splashAction(final Activity activity,final SplashLietener splashLietener){
+        /** check internet connection **/
         if(!isNetworkConnected(activity)){
             activity.startActivity(new Intent(activity,NoNetworkActivity.class));
         }else {
+
+            /** check on shared pref if installed**/
             if(!PreferenceManager.getDefaultSharedPreferences(activity).getBoolean("haveInstallAddOneTimes",false)){
                 new InstallAddTask(activity);
             }

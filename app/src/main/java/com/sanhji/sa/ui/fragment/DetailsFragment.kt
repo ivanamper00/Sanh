@@ -1,10 +1,7 @@
-package com.phetmalou.sanh.ui.fragment
+package com.sanhji.sa.ui.fragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.ProgressBar
 import androidx.navigation.fragment.navArgs
 import com.dakuinternational.common.domain.model.DataContent
@@ -14,8 +11,9 @@ import com.dakuinternational.common.ui.delegates.OnImageLoaded
 import com.github.ybq.android.spinkit.sprite.Sprite
 import com.github.ybq.android.spinkit.style.ThreeBounce
 import com.google.gson.Gson
-import com.phetmalou.sanh.R
-import com.phetmalou.sanh.databinding.FragmentDetailsBinding
+import com.sanhji.sa.R
+import com.sanhji.sa.databinding.FragmentDetailsBinding
+import java.lang.Exception
 
 
 class DetailsFragment : BaseFragment(R.layout.fragment_details), OnImageLoaded {
@@ -35,6 +33,8 @@ class DetailsFragment : BaseFragment(R.layout.fragment_details), OnImageLoaded {
     }
 
     override fun onLoad() {
-        binding.spinKit.visibility = View.GONE
+        try {
+            binding.spinKit.visibility = View.GONE
+        }catch (e: Exception){}
     }
 }

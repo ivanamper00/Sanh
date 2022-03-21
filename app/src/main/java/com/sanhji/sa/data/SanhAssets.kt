@@ -1,7 +1,7 @@
-package com.phetmalou.sanh.data
+package com.sanhji.sa.data
 
 import com.dakuinternational.common.domain.model.DataContent
-import com.phetmalou.sanh.R
+import com.sanhji.sa.R
 
 object SanhAssets {
     val types = listOf(

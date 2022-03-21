@@ -1,4 +1,4 @@
-package com.phetmalou.sanh.ui.activity
+package com.sanhji.sa.ui.activity
 
 import android.content.Context
 import android.content.DialogInterface
@@ -12,11 +12,10 @@ import com.dakuinternational.common.ui.ActivityViewModel
 import com.dakuinternational.common.ui.base.BaseActivity
 import com.dakuinternational.common.ui.dialog.AlertUtils
 import com.google.gson.Gson
-import com.phetmalou.sanh.R
-import com.phetmalou.sanh.databinding.ActivityMainBinding
-import com.phetmalou.sanh.ui.adapter.DashboardAdapter
-import com.phetmalou.sanh.ui.fragment.DashboardFragment
-import com.phetmalou.sanh.ui.fragment.DashboardFragmentDirections
+import com.sanhji.sa.R
+import com.sanhji.sa.databinding.ActivityMainBinding
+import com.sanhji.sa.ui.adapter.DashboardAdapter
+import com.sanhji.sa.ui.fragment.DashboardFragmentDirections
 
 class MainActivity : BaseActivity(), DashboardAdapter.OnItemClickListener {
 

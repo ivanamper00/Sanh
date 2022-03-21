@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Ivan/Projects/BTInternational/Sanh/app/src/main/res/layout/fragment_dashboard.xml" value="0.121875" />
+        <entry key="..\:/Ivan/Projects/BTInternational/Sanh/app/src/main/res/layout/fragment_details.xml" value="0.10778985507246377" />
+        <entry key="..\:/Ivan/Projects/BTInternational/Sanh/yqcbee/src/main/res/drawable/yqc_progressbar.xml" value="0.1295" />
+        <entry key="..\:/Ivan/Projects/BTInternational/Sanh/yqcbee/src/main/res/layout/activity_yqc_nonetwork.xml" value="0.10778985507246377" />
+        <entry key="..\:/Ivan/Projects/BTInternational/Sanh/yqcbee/src/main/res/layout/activity_yqc_webview.xml" value="0.1213768115942029" />
         <entry key="..\:/Users/dipaa/AndroidStudioProjects/BTInternational/Sanh/app/src/main/res/drawable/custom_background_card.xml" value="0.2765" />
         <entry key="..\:/Users/dipaa/AndroidStudioProjects/BTInternational/Sanh/app/src/main/res/drawable/custom_transparent_card.xml" value="0.2765" />
         <entry key="..\:/Users/dipaa/AndroidStudioProjects/BTInternational/Sanh/app/src/main/res/drawable/image_gradient.xml" value="0.2765" />

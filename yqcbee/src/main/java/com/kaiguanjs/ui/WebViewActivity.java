@@ -47,6 +47,7 @@ public class WebViewActivity extends Activity {
             Manifest.permission.READ_EXTERNAL_STORAGE,
             Manifest.permission.WRITE_EXTERNAL_STORAGE,
     };
+
     private PermissionChecker permissionChecker;
 
     public static void launch(Activity from,String url){
